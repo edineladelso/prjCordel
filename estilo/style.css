@@ -1,5 +1,17 @@
 @charset "UTF-8";
 
+/* Aqui importarei fontes na google*/
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
+
+:root {
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2: "Passion One", sans-serif;
+    --fonte3: "Sriracha", cursive;
+}
+
+
 * {
     margin: 0px;
     padding: 0px;
@@ -8,6 +20,7 @@
 html, body {
     min-height: 100vh;
     background-color: darkgray;
+    font-family: var(--fonte1);
 }
 
 
@@ -24,6 +37,7 @@ header > h1 {
     font-variant: small-caps;
 
     font-size: 9vw;
+    font-family: var(--fonte2);
 }
 
 header > p {
@@ -48,6 +62,7 @@ section {
     padding-left: 30px;
 
     font-size: 3vw;
+    font-family: var(--fonte3);
 }
 
 section > p {
